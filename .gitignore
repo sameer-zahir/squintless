@@ -1,0 +1,20 @@
+# Secrets - never commit these
+.env
+.env.*
+*.key
+*.pem
+
+# Squintless backups (created by install.ps1 on the user's machine)
+*.squintless-*.bak
+*.bak
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
+
+# Node (only if the optional npm package is added later)
+node_modules/

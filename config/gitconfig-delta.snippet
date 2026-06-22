@@ -1,0 +1,17 @@
+# Squintless - git-delta with the gruvbox-light syntax theme.
+# Merge these sections into your ~/.gitconfig (requires: winget install dandavison.delta).
+
+[core]
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	line-numbers = true
+	light = true
+	syntax-theme = gruvbox-light
+
+[merge]
+	conflictStyle = zdiff3

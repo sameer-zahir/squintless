@@ -1,0 +1,15 @@
+{
+  "name": "squintless",
+  "owner": {
+    "name": "Sameer Zahir",
+    "email": "sameerzahir97@gmail.com",
+    "url": "https://github.com/sameerzahir97-cloud"
+  },
+  "plugins": [
+    {
+      "name": "squintless",
+      "source": "./claude-plugin",
+      "description": "Easy on the eyes: a light Claude Code theme + a curated ccstatusline statusline, plus a /squintless-setup skill for the full Gruvbox-light terminal setup."
+    }
+  ]
+}

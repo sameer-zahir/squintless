@@ -1,0 +1,17 @@
+{
+  "adjustIndistinguishableColors": "always",
+  "antialiasingMode": "grayscale",
+  "colorScheme": "Squintless (Gruvbox Light)",
+  "cursorShape": "bar",
+  "font": {
+    "cellHeight": "1.35",
+    "face": "JetBrainsMono NFM",
+    "size": 14,
+    "weight": "medium"
+  },
+  "intenseTextStyle": "bold",
+  "opacity": 100,
+  "padding": "12, 12, 12, 12",
+  "scrollbarState": "visible",
+  "useAcrylic": false
+}
