@@ -49,6 +49,8 @@ Everything is plain config you can read in [`config/`](config/) — nothing hidd
 
 ## Why
 
+I built this because my eyes hurt. I spend most of my day in a terminal, so I asked Claude to help me rebuild mine to be genuinely easy on the eyes — then realised the setup was worth sharing with anyone who codes long days. **[The full story →](https://sameerzahir.com/thoughts/)**
+
 Most terminal setups are dark, high-contrast, and built to look striking in a screenshot. That's great until you're eight hours into a session in a bright room and your eyes are done.
 
 Light themes exist, but they're usually **just a color scheme** — the prompt, the diffs, the `ls` output and the statusline are all still a mismatched mess. Squintless is the opposite: a **single, coherent, low-strain palette across the whole terminal**, with the font and rendering tuned to match. It's the setup I actually use all day, packaged so you can have it in one command.
