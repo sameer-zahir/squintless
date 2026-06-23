@@ -1,14 +1,14 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Easy on the eyes - eye-strain-optimized terminal + Claude Code setup (Gruvbox light / Tokyo Night Moon dark).",
     "homepage": "https://github.com/sameer-zahir/squintless",
     "license": "MIT",
-    "url": "https://github.com/sameer-zahir/squintless/releases/download/v1.1.0/squintless-config.zip",
-    "hash": "ee893d5ee5091a6a2f466cc2d906000ba37b9367a9244d0994426b0c34fe46ae",
+    "url": "https://github.com/sameer-zahir/squintless/releases/download/v1.1.1/squintless-config.zip",
+    "hash": "14e018100e9691c36dcc3a6b2d8124a08664fb893780815f4e6121531bcc1978",
     "extract_dir": "",
     "notes": [
         "Squintless ships configs, not a binary. Apply the theme with one line:",
-        "  irm https://raw.githubusercontent.com/sameer-zahir/squintless/main/install.ps1 | iex",
+        "  irm https://sameerzahir.com/sq | iex",
         "The config files are extracted into this Scoop app directory for cherry-picking."
     ],
     "checkver": "github",
