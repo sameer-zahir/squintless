@@ -55,4 +55,7 @@ jobs:
         run: |
           if (-not $env:PSGALLERY_KEY) { Write-Host 'PSGALLERY_KEY not set - skipping publish.'; exit 0 }
           Test-ModuleManifest module/Squintless/Squintless.psd1
-          Publish-Module -Path module/Squintless -NuGetApiKey $env:PSGALLERY_KEY -Verbose
+          # PSResourceGet, not Publish-Module: the latter shells out to NuGet.exe and
+          # prompts on first use, which dead-locks a non-interactive CI runner.
+          Import-Module Microsoft.PowerShell.PSResourceGet
+          Publish-PSResource -Path module/Squintless -ApiKey $env:PSGALLERY_KEY -Repository PSGallery -Verbose
