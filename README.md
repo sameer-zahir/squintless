@@ -37,6 +37,13 @@ $s = irm https://raw.githubusercontent.com/sameer-zahir/squintless/main/install.
 
 *(Not on PowerShell 7? `winget install Microsoft.PowerShell`, open `pwsh`, paste again. Piping `irm | iex` non-interactively defaults to light.)*
 
+Or from the **PowerShell Gallery** (versioned, `Update-Module`-able):
+
+```powershell
+Install-Module Squintless -Scope CurrentUser
+Invoke-Squintless -Dark          # or -Light, -WithClaude, -Uninstall, ...
+```
+
 ### macOS · Linux
 
 ```bash
