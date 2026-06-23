@@ -75,7 +75,7 @@ if ($PSVersionTable.PSVersion.Major -lt 7) {
 try { [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12 } catch { $null = $_ }
 
 $ErrorActionPreference = 'Stop'
-$SquintlessVersion = '1.1.0'   # keep in sync with ./VERSION and plugin.json (CI enforces)
+$SquintlessVersion = '1.1.1'   # keep in sync with ./VERSION and plugin.json (CI enforces)
 $RawBase = 'https://raw.githubusercontent.com/sameer-zahir/squintless/main'
 
 # ---------- pretty output ----------

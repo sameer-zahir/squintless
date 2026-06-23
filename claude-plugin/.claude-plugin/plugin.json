@@ -1,7 +1,7 @@
 {
   "name": "squintless",
   "displayName": "Squintless",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Easy on the eyes - a light or dark Claude Code theme + curated ccstatusline statusline, and a /squintless-setup skill that walks you through the full Gruvbox-light or Tokyo Night Moon terminal setup.",
   "author": {
     "name": "Sameer Zahir",

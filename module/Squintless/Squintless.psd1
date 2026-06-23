@@ -1,6 +1,6 @@
 @{
     RootModule        = 'Squintless.psm1'
-    ModuleVersion     = '1.1.0'
+    ModuleVersion     = '1.1.1'
     GUID              = 'b3a9c1e7-5d42-4f8b-9e10-7a6c2d4b8f31'
     Author            = 'Sameer Zahir'
     CompanyName       = 'Sameer Zahir'

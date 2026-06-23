@@ -14,7 +14,7 @@
 
 set -euo pipefail
 
-SQUINTLESS_VERSION="1.1.0"   # keep in sync with ./VERSION and plugin.json (CI enforces)
+SQUINTLESS_VERSION="1.1.1"   # keep in sync with ./VERSION and plugin.json (CI enforces)
 RAW_BASE="https://raw.githubusercontent.com/sameer-zahir/squintless/main"
 START_MARKER="# >>> squintless >>>"
 END_MARKER="# <<< squintless <<<"
