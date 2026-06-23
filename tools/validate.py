@@ -68,6 +68,10 @@ def main() -> int:
     versions = {"VERSION": version, "plugin.json": plugin.get("version"),
                 "install.ps1": m_ps.group(1) if m_ps else None,
                 "install.sh": m_sh.group(1) if m_sh else None}
+    psd1 = ROOT / "module/Squintless/Squintless.psd1"
+    if psd1.exists():
+        m_mod = re.search(r"ModuleVersion\s*=\s*'([^']+)'", psd1.read_text(encoding="utf-8"))
+        versions["module.psd1"] = m_mod.group(1) if m_mod else None
     if len(set(versions.values())) != 1:
         errs.append(f"version mismatch: {versions}")
 

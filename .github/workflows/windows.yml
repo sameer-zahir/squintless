@@ -16,11 +16,15 @@ jobs:
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module PSScriptAnalyzer -Force -Scope CurrentUser
-          $issues = Invoke-ScriptAnalyzer -Path install.ps1 -Settings PSScriptAnalyzerSettings.psd1
+          $issues = Invoke-ScriptAnalyzer -Path install.ps1, module -Recurse -Settings PSScriptAnalyzerSettings.psd1
           $issues | Format-Table -AutoSize
           if ($issues) {
             throw "PSScriptAnalyzer found $($issues.Count) issue(s)"
           }
+
+      - name: Test module manifest
+        shell: pwsh
+        run: Test-ModuleManifest module/Squintless/Squintless.psd1
 
       - name: Pester tests
         shell: pwsh
