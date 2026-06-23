@@ -22,3 +22,6 @@ node_modules/
 # Python (tools/gen.py bytecode cache)
 __pycache__/
 *.pyc
+
+# Cloudflare wrangler local cache
+.wrangler/
