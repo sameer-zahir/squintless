@@ -44,6 +44,13 @@ Install-Module Squintless -Scope CurrentUser
 Invoke-Squintless -Dark          # or -Light, -WithClaude, -Uninstall, ...
 ```
 
+Or via **[Scoop](https://scoop.sh)** (versioned config files you can `scoop update`; apply with the one-liner above, or cherry-pick from the Scoop app dir):
+
+```powershell
+scoop bucket add squintless https://github.com/sameer-zahir/squintless
+scoop install squintless
+```
+
 ### macOS · Linux
 
 ```bash
